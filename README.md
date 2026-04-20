@@ -92,6 +92,12 @@ Training includes:
 * Achieved **~95% accuracy** on test data
 * Good balance between learning and generalization
 
+### 📉 Training vs Validation Loss
+
+<p align="center">
+  <img src="results/loss_curve.png" width="500"/>
+</p>
+
 ---
 
 ## 📊 Evaluation Metrics
@@ -100,7 +106,6 @@ Training includes:
   
 ### Classification Report (Precision, Recall, F1-score) :
 
-<p align="center">
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
 |  0    |      0.92 |   0.92 |     0.92 |      12 |
@@ -113,13 +118,6 @@ Training includes:
 
 **Macro Avg:** Precision: 0.94 | Recall: 0.94 | F1: 0.94  
 **Weighted Avg:** Precision: 0.96 | Recall: 0.96 | F1: 0.95  
-</p>
-
-### 📉 Training vs Validation Loss
-
-<p align="center">
-  <img src="results/loss_curve.png" width="500"/>
-</p>
 
 ---
 
