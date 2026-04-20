@@ -96,10 +96,11 @@ Training includes:
 
 ## 📊 Evaluation Metrics
 
-* Accuracy Score : **95.56%**
+### Accuracy Score : **95.56%**
   
-* Classification Report (Precision, Recall, F1-score) :
+### Classification Report (Precision, Recall, F1-score) :
 
+<p align="center">
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
 |  0    |      0.92 |   0.92 |     0.92 |      12 |
@@ -112,8 +113,9 @@ Training includes:
 
 **Macro Avg:** Precision: 0.94 | Recall: 0.94 | F1: 0.94  
 **Weighted Avg:** Precision: 0.96 | Recall: 0.96 | F1: 0.95  
+</p>
 
-## 📉 Training vs Validation Loss
+### 📉 Training vs Validation Loss
 
 <p align="center">
   <img src="results/loss_curve.png" width="500"/>
