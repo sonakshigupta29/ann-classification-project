@@ -92,7 +92,8 @@ Training includes:
 * Achieved **~95% accuracy** on test data
 * Good balance between learning and generalization
 
-### 📉 Training vs Validation Loss
+
+## 📉 Training vs Validation Loss
 
 <p align="center">
   <img src="results/loss_curve.png" width="500"/>
