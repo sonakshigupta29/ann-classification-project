@@ -115,7 +115,9 @@ Training includes:
 
 ## 📉 Training vs Validation Loss
 
-![Loss Curve](results/loss_curve.png)
+<p align="center">
+  <img src="results/loss_curve.png" width="500"/>
+</p>
 
 ---
 
