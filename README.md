@@ -96,9 +96,22 @@ Training includes:
 
 ## 📊 Evaluation Metrics
 
-* Accuracy Score : **95.55%**
+* Accuracy Score : **95.56%**
+  
 * Classification Report (Precision, Recall, F1-score) :
 
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+|  0    |      0.92 |   0.92 |     0.92 |      12 |
+|     1 |      0.89 |   0.80 |     0.84 |      20 |
+|     2 |      0.96 |   0.98 |     0.97 |      50 |
+|     3 |      0.90 |   0.90 |     0.90 |      10 |
+|     4 |     1 .00 |   1.00 |     1.00 |      35 |
+|     5 |      1.00 |   1.00 |     1.00 |      33 |
+|     6 |      0.90 |   0.95 |     0.93 |      20 |
+
+**Macro Avg:** Precision: 0.94 | Recall: 0.94 | F1: 0.94  
+**Weighted Avg:** Precision: 0.96 | Recall: 0.96 | F1: 0.95  
 
 ---
 
