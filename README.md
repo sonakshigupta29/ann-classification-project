@@ -36,7 +36,7 @@ The dataset contains multiple numerical attributes representing characteristics 
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 Key observations:
 
@@ -48,7 +48,7 @@ Key observations:
 
 ---
 
-## ⚙️ Data Preprocessing
+##  Data Preprocessing
 
 Steps performed:
 
@@ -60,7 +60,7 @@ Steps performed:
 
 ---
 
-## 🧠 Model Architecture (ANN)
+##  Model Architecture (ANN)
 
 * Input Layer: Based on number of features
 * Hidden Layers: Fully connected layers with ReLU activation
@@ -69,7 +69,7 @@ Steps performed:
 
 ---
 
-## 🏋️ Training Process
+##  Training Process
 
 * Loss Function: CrossEntropyLoss
 * Optimizer: Adam
@@ -93,7 +93,7 @@ Training includes:
 * Good balance between learning and generalization
 
 
-## 📉 Training vs Validation Loss
+##  Training vs Validation Loss
 
 <p align="center">
   <img src="results/loss_curve.png" width="500"/>
@@ -101,7 +101,7 @@ Training includes:
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 ### Accuracy Score : **95.56%**
   
@@ -122,7 +122,7 @@ Training includes:
 
 ---
 
-## ⚠️ Challenges & Learnings
+##  Challenges & Learnings
 
 * Incorrect feature scaling initially led to unstable validation loss
 * Learned importance of fitting scaler only on training data
@@ -132,7 +132,7 @@ Training includes:
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 * Feature scaling is critical for neural network stability
 * Proper tensor formatting is essential for correct training
@@ -141,7 +141,7 @@ Training includes:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Hyperparameter tuning
 * Try advanced architectures (CNN, TabNet)
