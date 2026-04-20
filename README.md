@@ -113,6 +113,10 @@ Training includes:
 **Macro Avg:** Precision: 0.94 | Recall: 0.94 | F1: 0.94  
 **Weighted Avg:** Precision: 0.96 | Recall: 0.96 | F1: 0.95  
 
+## 📉 Training vs Validation Loss
+
+![Loss Curve](results/loss_curve.png)
+
 ---
 
 ## ⚠️ Challenges & Learnings
