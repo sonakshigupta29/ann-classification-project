@@ -8,7 +8,7 @@ The dataset contains multiple numerical attributes representing characteristics 
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 * Perform Exploratory Data Analysis (EDA) to understand data distribution and quality
 * Apply preprocessing techniques such as encoding and feature scaling
@@ -18,7 +18,7 @@ The dataset contains multiple numerical attributes representing characteristics 
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 * Total samples: ~900
 * Features: 30+ numerical features
@@ -85,7 +85,7 @@ Training includes:
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 * Training and validation loss show consistent decrease
 * Model converges effectively after ~38 epochs
@@ -93,7 +93,7 @@ Training includes:
 * Good balance between learning and generalization
 
 
-##  Training vs Validation Loss
+## 📈 Training vs Validation Loss
 
 <p align="center">
   <img src="results/loss_curve.png" width="500"/>
