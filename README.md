@@ -163,12 +163,17 @@ Training includes:
 ## 📌 Project Structure
 
 ```bash
-ann-datefruit-classification/
+ann-classification-project/
 │
-├── ANN_classification.ipynb
-├── best_model.pt
-├── DateFruit_Dataset.csv
-├── README.md
+├── ANN_classification.ipynb     # Main notebook (EDA + Model)
+├── DateFruit_Dataset.csv        # Dataset
+├── best_ann_classifier.pt       # Saved trained model
+├── requirements.txt             # Dependencies
+├── README.md                    # Project documentation
+├── .gitignore                   # Ignored files
+│
+└── results/                     # Output visuals
+    └── loss_curve.png
 ```
 
 ---
@@ -176,7 +181,16 @@ ann-datefruit-classification/
 ## ▶️ How to Run
 
 1. Clone the repository
-2. Install required libraries
+```bash
+git clone https://github.com/sonakshigupta29/ann-classification-project.git
+cd ann-classification-project
+```
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 3. Open the notebook
+```bash
+jupyter notebook ANN_classification.ipynb
+```
 4. Run all cells sequentially
-
